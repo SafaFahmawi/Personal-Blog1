@@ -1,0 +1,59 @@
+@import url("../frontendmediaQuery/frontendmediaQuery.css");
+
+@media (max-width: 480px) {
+    #todo-video {
+        width: 80%;
+        height: 0%;
+        padding-right: 300px;
+    }
+}
+
+/* Styles for mobile max-width: 600px */
+
+@media (max-width: 600px) {
+
+    .todo-post {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: -30px;
+        padding: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .todo-card-right {
+        margin-top: -20px;
+    }
+
+    .subscribe {
+        margin-left: 0px !important;
+    }
+}
+
+/* Styles for tablet max-width: 1024px */
+
+@media (max-width: 1024px) {
+
+    .todo-post {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .todo-card-right {
+        margin-top: -20px;
+    }
+
+    .todo-card-left video {
+        padding-right: 50px;
+    }
+
+    .grid-right {
+        height: 115%;
+    }
+
+    .subscribe {
+        height: 28%;
+        margin-left: 10px;
+    }
+}

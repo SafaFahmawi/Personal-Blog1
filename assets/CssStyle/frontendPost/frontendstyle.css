@@ -1,0 +1,109 @@
+
+
+@import url("../../../static/subscribe.css");
+@import url("../../../static/btnShared.css");
+@import url("../../../static/basicShare.css");
+@import url("../IndexCssStyle/styleFooter.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.layout{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+.service-part-heading {
+    margin-right: 400px;
+    margin-top: -60px;
+}
+
+.subscribe-button{
+    margin-left: 20px;
+}
+
+.muslim-post,
+.portfolio-post,
+.supermarket-post {
+    border: 2px solid rgb(109, 14, 14);
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.muslim-card-left,
+.portfolio-card-left,
+.supermarket-card-left {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.muslim-card-right,
+.portfolio-card-right,
+.supermarket-card-right {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.muslim-par,
+.portfolio-par,
+.supermarket-par {
+    text-align: justify;
+    width: 90%;
+}
+
+.date {
+    color: gray;
+}
+
+/** end grid left **/
+
+.grid-right {
+    position: relative;
+    bottom: 20px; 
+    left: 70px;
+}
+
+.subscribe {
+    height: 40%;
+}
+
+.subscribe-form {
+    padding: 50px;
+}
+
+.resource-heading {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.resource-list a{
+    line-height: 30px;
+    color: blue;
+}
+
+.resource-list a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.add-post-btn {
+    padding: 10px 20px;
+    width: 10%;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 40px 100px;
+    background-color: #ffc107;
+}
+
+.add-post-btn:hover {
+    background-color: #eae1c3;
+    cursor: pointer;
+}

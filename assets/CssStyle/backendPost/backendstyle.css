@@ -1,0 +1,44 @@
+
+
+@import url("../../../static/subscribe.css");
+@import url("../../../static/btnShared.css");
+@import url("../../../static/basicShare.css");
+@import url("../IndexCssStyle/styleFooter.css");
+@import url("../frontendPost/frontendstyle.css");
+
+.todo-post,
+.supermarket-post {
+    display: flex;
+    border: 2px solid rgb(109, 14, 14);
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 95%;
+}
+
+.todo-card-left,
+.supermarket-card-left {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.todo-card-right,
+.supermarket-card-right {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.todo-card-right{
+    margin-top: 40px;
+}
+
+.todo-par,
+.supermarket-par {
+    text-align: justify;
+    width: 90%;
+}
+
+.date {
+    color: gray;
+}
+
+/** end grid left **/

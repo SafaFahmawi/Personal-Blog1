@@ -1,0 +1,59 @@
+
+.footer {
+    background-color: rgb(243, 240, 237);
+    font-size: 17px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.name-form {
+    display: flex;
+    gap: 40px;
+}
+
+.first-name,
+.last-name,
+.email,
+.textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid green;
+    width: 100%;
+    padding: 7px;
+    margin-top: 12px;
+    margin-bottom: 70px;
+}
+
+.first-name-label,
+.last-name-label,
+.email-label,
+.message-label{
+    font-weight: bold;
+}
+
+.textarea::placeholder{
+    padding-top: 100px;
+    font-size: medium;
+}
+
+.submit-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.copyright-footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

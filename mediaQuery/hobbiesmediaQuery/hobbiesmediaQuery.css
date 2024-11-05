@@ -1,0 +1,100 @@
+@import url("../frontendmediaQuery/frontendmediaQuery.css");
+@import url("../photographicmediaQuery/photographicmediaQuery.css");
+
+@media (max-width: 480px) {
+
+    .post-image {
+        height: 100%;
+    }
+
+    .photographic-post .post-image,
+    .cooking-post .post-image {
+        height: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .post-image {
+        height: 100%;
+    }
+
+    .photographic-post .post-image,
+    .cooking-post .post-image {
+        width: 90%;
+        padding: 20px;
+        margin-left: 0;
+        margin-top: 20px;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+/* Styles for tablet max-width: 1024px */
+
+@media (max-width: 1024px) {
+
+    .grid-container {
+        padding: 30px;
+        gap: 15px;
+    }
+
+    .title-part {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .title-part svg {
+        width: 5%;
+    }
+
+    .blog-post {
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .book-post,
+    .photographic-post,
+    .cooking-post {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .post-image {
+        width: 85%;
+        padding: 20px;
+        padding-left: 50px;
+        margin-top: 20px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .post-title {
+        font-size: 2rem;
+        padding: 15px;
+    }
+
+    .blog-post a {
+        font-size: 20px;
+    }
+
+    .blog-post a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+    .grid-left {
+        margin-right: -50px;
+        text-align: center;
+    }
+
+    .love-shape,
+    .share-shape,
+    .save-shape {
+        margin-top: 50px;
+    }
+
+    .photographic-part .post-image,
+    .cooking-part .post-image {
+        max-height: 100%;
+    }
+}

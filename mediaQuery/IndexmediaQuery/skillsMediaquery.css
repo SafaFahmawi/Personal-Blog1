@@ -1,0 +1,140 @@
+@media (max-width: 480px) {
+
+    .skills-section {
+        
+    }
+
+    .skills-par {
+        width: 60% !important;
+    }
+
+    .italic-par {
+        width: 60% !important;
+    }
+}
+
+/** media query for small screen **/
+
+@media (max-width: 600px) {
+    
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(233, 210, 204, 0.604);
+        height: 170vh !important;
+    }
+
+    .basic-heading-skills {
+        font-size: 3em !important;
+        margin-top: -4em !important;
+    }
+
+    .skills-par {
+        text-align: center;
+    }
+
+    .italic-par {
+        text-align: center;
+    }
+
+    .skills-list-heading {
+        text-align: center;
+    }
+
+    .skills-list {
+        margin-left: 92em;
+        width: 100em;
+    }
+
+    .skills-right-list {
+        position: relative;
+        top: 11em;
+        right: 6.25em;
+    }
+
+    .top-list-link,
+    .bottom-list-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .backend {
+        margin-top: 3em;
+        margin-right: 3em;
+    }
+ 
+    .git {
+        margin-top: 2em;
+        margin-right: 3em;
+    }
+
+    hr {
+        display: none;
+        padding: 0;
+        margin: 0;
+        height: 0;
+    }
+}
+
+/** media query for medium screen**/
+
+@media (max-width: 1024px) {
+
+    .layout {
+        width: auto;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .skills-section {
+        height: 120vh;
+        grid-template-columns: 1fr;
+        margin-top: 7em;
+    }
+
+    .basic-heading-skills {
+        font-size: 3em;
+        margin-top: 1.5em;
+    }
+
+    .secondary-heading-skills {
+        font-size: 2.5em;
+    }
+
+    .skills-par {
+        font-size: 1.6em;
+        width: 90%;
+        text-align: center;
+    }
+
+    .italic-par {
+        font-size: 1.6em;
+        width: 85%;
+        text-align: center;
+    }
+
+    .skills-list-heading {
+        font-size: 1.8em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .skills-right-list {
+        margin-top: -7em;
+        margin-left: 10em;
+    }
+
+    .skills-list li {
+        font-size: 0.9599em;
+    }
+
+    hr{
+        width: 90%;
+        margin-left: -3em;
+        background-color: rgba(54, 52, 51, 0.406);
+        border: none;
+    }
+}

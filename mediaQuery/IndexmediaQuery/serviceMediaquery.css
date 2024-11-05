@@ -1,0 +1,116 @@
+@media (max-width: 480px) {
+
+    .service-section {
+        position: relative;
+        right: 100px;
+    }
+
+    .service-section .box {
+        width: 65%;
+        margin-left: 140px !important;
+        margin-top: 0;
+    }
+
+    .box svg {
+        width: 24% !important;
+        margin-top: 40px;
+    }
+}
+
+
+/** media query for small screen **/
+
+@media (max-width: 600px) {
+
+    .content-heading {
+        position: relative;
+        width: 30em;
+    }
+
+    #basic-heading-content {
+        font-size: 3em !important;
+        margin-right: 2em;
+        margin-top: 0.2em;
+    }
+
+    #secondary-heading-content {
+        font-size: 2.2em !important;
+        width: 98%;
+        margin-right: 2em;
+        margin-top: -0.5em !important;
+    }
+
+    .content-img {
+        position: relative;
+        width: 80%;
+        top: 3.5em;
+        left: 120px !important;
+    }
+
+    .box {
+        margin-left: 4.5em !important;
+    }
+
+    .box h5 {
+        font-size: 1.7em;
+        text-align: center;
+        line-height: 1.25em;
+        margin-top: 0.9375em;
+    }
+
+    .box svg {
+        width: 4em;
+    }
+}
+
+/** media query for medium screen**/
+
+@media (max-width: 1024px) {
+
+    .layout {
+        width: auto;
+        height: auto;
+        overflow-x: hidden;
+        
+    }
+
+    .service-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .content-img {
+        position: absolute;
+        width: 40%;
+        left: 7em;
+        bottom: -60em;
+    }
+
+    .box {
+        margin-top: 8em;
+        margin-left: 14em;
+    }
+
+    #box {
+        margin-top: 3em;
+    }
+
+    #basic-heading-content {
+        font-size: 3.6em;
+        margin-left: 6em;
+    }
+
+    #secondary-heading-content {
+        font-size: 2.8em;
+        margin-left: 5em;
+        margin-top: 0.8em;
+    }
+
+    .box h5 {
+        font-size: 1.8em;
+        text-align: center;
+        line-height: 1.5em;
+        margin-top: 0.9375em;
+    }
+}

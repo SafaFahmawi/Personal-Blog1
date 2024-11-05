@@ -1,0 +1,61 @@
+@import url("../../../static/subscribe.css");
+@import url("../../../static/btnShared.css");
+@import url("../../../static/basicShare.css");
+@import url("../frontendPost/frontendstyle.css");
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.post-image {
+    width: 150%;
+    margin-left: -40px;
+    margin-top: -20px;
+    height: auto;
+}
+
+.post-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    padding: 10px;
+}
+
+.date {
+    color: gray;
+}
+
+.subscribe {
+    height: 14%;
+}
+
+.shape-div {
+    margin-bottom: 5px;
+}
+
+.shape-div-26 {
+    margin-top: 45px;
+}
+
+.shape-div-27 {
+    margin-top: 5px;
+}
+
+.share-shape {
+    margin-left: 40px;
+    margin-right: 40px;
+}

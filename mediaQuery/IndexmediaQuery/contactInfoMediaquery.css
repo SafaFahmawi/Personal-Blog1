@@ -1,0 +1,67 @@
+@media (max-width: 480px) {
+    .contact-info-heading {
+        width: 80% !important;
+        margin-left: 30px;
+    }
+
+    .contact-info-section {
+        width: 90% !important;
+        font-size: 11px;
+        margin-left: 20px;
+    }
+}
+
+
+/** media query for small screen **/
+
+@media (max-width: 600px) {
+
+    .contact-info-heading {
+        font-size: 2.6em !important;
+        width: 13em;
+        margin-bottom: 1em;
+    }
+
+    .location,
+    .phonenumber,
+    .gmail {
+        font-size: 1.4em;
+        margin-right: 1em;
+    }
+
+    .location svg,
+    .phonenumber svg,
+    .gmail svg {
+        width: 1em !important;
+        fill: rgb(169, 150, 99);
+    }
+}
+
+/** media query for medium screen**/
+
+@media (max-width: 1024px) {
+
+    .layout {
+        width: auto;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .contact-info-heading {
+        font-size: 3em;
+    }
+
+    .location,
+    .phonenumber,
+    .gmail {
+        font-size: 1.6em;
+        line-height: 4em;
+    }
+
+    .location svg,
+    .phonenumber svg,
+    .gmail svg {
+        fill: rgb(169, 150, 99);
+        width: 4%;
+    }
+}

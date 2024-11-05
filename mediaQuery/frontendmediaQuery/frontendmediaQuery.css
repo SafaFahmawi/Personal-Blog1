@@ -1,0 +1,181 @@
+@media (max-width: 480px) {
+
+    .service-part-heading {
+        margin-left: 15px !important;
+        width: 100% !important;
+    }
+
+    #muslim-video,
+    #portfolio-video,
+    #supermarket-video {
+        width: 70%;
+        height: 0%;
+        padding-right: 295px !important;
+    }
+
+    .subscribe {
+        margin-left: -15px !important;
+    }
+
+    .subscribe-button {
+        margin-left: -55px !important;
+    }
+
+    .add-post-btn {
+        width: 50% !important;
+    }
+}
+
+/* Mobile styles for screens up to 600px */
+
+@media (max-width: 600px) {
+
+    .layout {
+        min-height: auto;
+        overflow-x: hidden !important;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-part-heading {
+        font-size: 2.7em;
+        margin-left: 4.5em;
+        width: 40%;
+    }
+
+    .muslim-post,
+    .portfolio-post,
+    .supermarket-post {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: -30px;
+        padding: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .muslim-card-left,
+    .portfolio-card-left,
+    .supermarket-card-left,
+    .muslim-card-right,
+    .portfolio-card-right,
+    .supermarket-card-right {
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .muslim-par,
+    .portfolio-par,
+    .supermarket-par {
+        width: 100%;
+    }
+
+    .muslim-card-left video,
+    .portfolio-card-left video,
+    .supermarket-card-left video {
+        margin-left: 3em;
+    }
+
+    .grid-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .subscribe {
+        padding: 50px 20px !important;
+    }
+
+    .subscribe-heading {
+        font-size: 1.1em;
+    }
+
+    .subscribe-button {
+        position: relative;
+        top: 30px;
+        left: 70px;
+    }
+
+    .resource-heading {
+        font-size: 20px !important;
+    }
+
+    .resource-list a {
+        font-size: 0.8em !important;
+    }
+
+    .add-post-btn {
+        margin-top: 50px !important;
+        width: 40% !important;
+        margin-left: 150px !important;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+
+/* Styles for max-width: 1024px */
+
+@media (max-width: 1024px) {
+
+    .layout {
+        width: auto;
+        height: auto;
+        overflow-x: hidden !important;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-part-heading {
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+
+    .muslim-post,
+    .portfolio-post,
+    .supermarket-post {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .muslim-card-right,
+    .portfolio-card-right,
+    .supermarket-card-right {
+        margin-top: -20px;
+    }
+
+    .muslim-card-left video,
+    .portfolio-card-left video,
+    .supermarket-card-left video {
+        padding-right: 50px;
+    }
+
+    .grid-right {
+        margin-top: 80px;
+        margin-left: -65px !important;
+    }
+
+    .subscribe {
+        padding: 80px 0;
+    }
+
+    .resource-list a {
+        text-decoration: none;
+    }
+    
+    .add-post-btn {
+        width: 20%;
+    }
+}

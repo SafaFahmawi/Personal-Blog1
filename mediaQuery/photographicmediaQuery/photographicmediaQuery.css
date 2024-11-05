@@ -1,0 +1,10 @@
+@import url("../frontendmediaQuery/frontendmediaQuery.css");
+
+/* Styles for max-width: 600px */
+
+@media (max-width: 600px) {
+  
+    .grid-left {
+        margin-left: -80px !important;
+    }  
+}

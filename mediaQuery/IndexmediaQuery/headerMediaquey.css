@@ -1,0 +1,325 @@
+/* Default styling for Mobile (up to 480px) */
+
+@media (max-width: 480px) {
+
+    .header {
+        background-image: none;
+    }
+
+    .logo {
+        width: 50% !important;
+    }
+
+    .nav-linklist {
+        display: none;
+    }
+
+    .link {
+        font-size: 16px !important;
+        width: 20%;
+    }
+
+    .hero-img {
+        width: 60% !important;
+    }
+
+    .image figure {
+        display: flex;
+        margin-left: -95px;
+    }
+
+    .yellow-div {
+        margin-top: -120px;
+    }
+
+    .hero-par {
+        font-size: 18px;
+        margin-top: 320px !important
+    }
+
+    .social-media {
+        display: flex !important;
+        
+        margin-top: -30px !important;
+    }
+
+    .linkedin,
+    .github,
+    .facebook {
+        width: 11%;
+        fill: rgb(34, 50, 83);
+    }
+
+    .CV-button,
+    .hire-button {
+        width: 70% !important;
+        margin-left: 150px !important;
+    }
+}
+
+/** media query for small screen **/
+
+@media (max-width: 600px) {
+
+    .layout {
+        width: auto;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .header {
+        height: auto;
+        width: auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 120px;
+    }
+
+    .form {
+        position: static;
+        width: 100%;
+        justify-content: center;
+        padding: 6.5em;
+        gap: 5px;
+        margin-left: -115px !important;
+        margin-top: -10px !important;
+    }
+
+    .form-control {
+        padding: 13.5px 15px;
+        width: 50%;
+    }
+
+    .search-btn {
+        padding: 10px 15px;
+        font-size: 12px;
+        font-size: 0.98em;
+    }
+
+    .nav-linklist {
+        margin-left: -150px !important;
+    }
+
+    .image {
+        position: absolute;
+        margin-left: -8em;
+    }
+
+    .hero-img {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .yellow-div {
+        top: 320px !important;
+        animation: slideInFromLeft 1s ease-out forwards;
+    }
+
+    .blue-div {
+        animation: slideInFromRight 2s ease-out forwards;
+    }
+
+    .green-div {
+        animation: slideInFromLeft 1s ease-out forwards;
+    }
+
+    /* Animation from Left */
+    @keyframes slideInFromLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    /* Animation from Right */
+    @keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .hero-section {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-name {
+        font-size: 30px;
+    }
+
+    .hero-par {
+        font-size: 18px;
+        position: relative;
+        bottom: 12em;
+    }
+
+    .social-media {
+        display: inline-block;
+        margin-left: 0em !important;
+        margin-top: -15em;
+        width: 50%;
+    }
+
+    .social-media-link .github {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .linkedin,
+    .github,
+    .facebook {
+        width: 11%;
+        fill: rgb(34, 50, 83);
+    }
+
+    .CV-button,
+    .hire-button {
+        position: sticky;
+        margin: 7px auto;
+        display: block;
+        width: 100%;
+        /* Adjust width for mobile */
+        text-align: center;
+    }
+
+    .CV-button {
+        margin-top: -17em;
+        margin-right: 5em;
+    }
+
+    .hire-button {
+        margin-right: 10em;
+    }
+
+    .CV-button:hover,
+    .hire-button:hover {
+        font-size: 14px;
+    }
+}
+
+
+/** media query for medium screen**/
+
+@media (max-width: 1024px) {
+
+    .layout {
+        width: auto;
+        height: auto;
+        overflow-x: hidden !important;
+    }
+
+    .header {
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .form {
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+    .nav-linklist {
+        width: 20%;
+        gap: 20px;
+        position: absolute;
+        top: 9.5em;
+        left: 10em;
+    }
+
+    .link {
+        padding: 0.6em;
+        font-size: 1.3em;
+    }
+
+    .image {
+        width: 60%;
+        top: 20em;
+        left: 16em;
+    }
+
+    .image figcaption {
+        font-weight: bold;
+        margin-left: 20px !important;
+        font-size: 1.5em;
+    }
+
+    .yellow-div {
+        height: 25px;
+        width: 220px;
+        top: 106%;
+        right: 44%;
+    }
+
+    .blue-div {
+        height: 20px;
+        width: 180px;
+        top: 105%;
+        right: 30%;
+    }
+
+    .green-div {
+        height: 15px;
+        width: 120px;
+        top: 110%;
+        left: 50%;
+    }
+
+    .hero-name {
+        font-size: 3rem;
+    }
+
+    .hero-par {
+        line-height: 1.5em;
+        width: 70%;
+        font-size: 1.8em;
+        margin-top: 16em;
+        margin-left: 3em;
+        text-align: center;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: -55em;
+        margin-left: -25em;
+    }
+
+    .CV-button {
+        font-size: 1.4em;
+        left: 12em;
+        top: 60em;
+        width: 30%;
+        height: 4.8%;
+    }
+
+    .hire-button {
+        font-size: 1.4em;
+        left: 12em;
+        top: 57em;
+        width: 30%;
+        height: 4.8%;
+    }
+}
